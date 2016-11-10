@@ -1,0 +1,40 @@
+.brandText{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+    font-size: 30px;
+}
+.brand {
+    margin-left: 1%;
+    width: 15%;
+    float: left;
+    padding-top: 1%;
+}
+.navbar {
+    float: right;
+    width: 27%;
+    padding: 0;
+    background-color: rgba(0,0,0,0);
+    position: fixed;
+    top: 0;
+    padding-top: 1.5%;
+}
+.navText {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: dimgray;
+    font-size: 15px;
+}
+.navButton {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+body {
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    transition: 3s opacity;
+}
+body.fade-out {
+    opacity: 0;
+    transition: none;	
+}
