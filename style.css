@@ -9,6 +9,15 @@
     float: left;
     padding-top: 1%;
 }
+.shopPage {
+    background-image: url("iff-1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.contactPage {
+    background-image: none;
+    background-color: white;
+}
 .season  {
    color: white;
     background-color: transparent;
@@ -46,8 +55,10 @@
     padding-left: 2%;
     padding-right: 2%;
 }
-body {
+.homePage {
     background-image: url("background.jpg");
+}
+body {
     background-repeat: no-repeat;
     background-size: cover;
     opacity: 1;
@@ -57,3 +68,68 @@ body.fade-out {
     opacity: 0;
     transition: none;	
 }
+.contactHeader {
+    padding-top: 5%;
+    padding-left: 10%;
+}
+.contactText {
+    font-family: 'Source Sans Pro', sans-serif;
+    color: dimgray;
+    font-size: 40px;
+}
+.contactContent {
+    
+}
+.footer {
+    background-color: white;
+    margin-top: 80%;
+}
+.footerText {
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-left: 10px;
+    color: dimgray;
+}
+.myButton {
+	-moz-box-shadow:inset 0px -3px 7px 0px #000000;
+	-webkit-box-shadow:inset 0px -3px 7px 0px #000000;
+	box-shadow:inset 0px -3px 7px 0px #000000;
+	background-color:#000000;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:16px;
+	padding:9px 23px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #000000;
+}
+.myButton:hover {
+	background-color:#000000;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+::-webkit-input-placeholder {
+   
+    text-align: center;
+}
+:-moz-placeholder {
+    /* Firefox 18- */
+   
+    text-align: center;
+}
+::-moz-placeholder {
+    /* Firefox 19+ */
+
+    text-align: center;
+}
+:-ms-input-placeholder {
+  
+    text-align: center;
+}
+
