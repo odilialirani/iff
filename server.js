@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const options = {
-	root: __dirname + '/public/',
+	root: __dirname +,
 	dotfiles: 'deny'
 }
 
@@ -24,4 +24,6 @@ app.get('/resource/:file', (req, res) => {
 app.get('/:otherThing', (req, res) => {
 	res.send("This is the other thing");
 });
-app.listen(3000);
+app.listen(3000, () => {
+    console.log("Listening on port 3000.");
+});
