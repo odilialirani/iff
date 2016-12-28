@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 const options = {
-	root: __dirname +,
+	root: __dirname,
 	dotfiles: 'deny'
 }
 
