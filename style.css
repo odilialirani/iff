@@ -4,7 +4,7 @@
     font-size: 30px;
 }
 .brand {
-    margin-left: 1%;
+    margin-left: 3%;
     width: 15%;
     float: left;
     padding-top: 1%;
@@ -82,7 +82,7 @@ body.fade-out {
 }
 .footer {
     background-color: white;
-    margin-top: 80%;
+    margin-top: 45%;
 }
 .footerText {
     font-family: 'Source Sans Pro', sans-serif;
