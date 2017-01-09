@@ -19,7 +19,7 @@
     background-color: white;
 }
 .season  {
-   color: white;
+    color: white;
     background-color: transparent;
     text-align: center;
     position: absolute;
@@ -80,7 +80,7 @@ body.fade-out {
 }
 .footer {
     background-color: white;
-    margin-top: 45%;
+    margin-top: 72.5vh;
 }
 .footerText {
     font-family: 'Source Sans Pro', sans-serif;
