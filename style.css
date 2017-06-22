@@ -29,8 +29,8 @@
     height: 1px;
     overflow: visible;
     visibility: visible;
-    display: block
-    
+    display: inline-block;
+    vertical-align: middle;
 }
 .seasonText {
     font-family: 'Source Sans Pro', sans-serif;
