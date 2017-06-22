@@ -22,6 +22,8 @@ app.get('/resource/:file', (req, res) => {
 // This other thing will not be executed
 // Since the server is going to go with the first one
 app.get('/:otherThing', (req, res) => {
+    const subpage = req.params.otherThing;
+    
 	res.send("This is the other thing");
 });
 app.listen(3000, () => {
